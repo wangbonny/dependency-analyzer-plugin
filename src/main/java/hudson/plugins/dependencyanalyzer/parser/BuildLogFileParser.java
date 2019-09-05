@@ -25,8 +25,8 @@ public class BuildLogFileParser {
 	 * Internal enumeration to register a goal and the regular expression for the starting section of the goal.
 	 */
 	private enum Goal {
-		DEPENDENCY_ANALYSE(A_LOG_LEVEL_REGEX + "\\[dependency:analyze(-only)?( \\{execution: [^\\}]+\\}){0,1}\\]$");
-
+		//DEPENDENCY_ANALYSE(A_LOG_LEVEL_REGEX + "\\[dependency:analyze(-only)?( \\{execution: [^\\}]+\\}){0,1}\\]$");
+                DEPENDENCY_ANALYSE(A_LOG_LEVEL_REGEX + "--- maven-dependency-plugin.*$");
 		private Pattern pattern;
 
 		/**
