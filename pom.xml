@@ -9,7 +9,7 @@
 
 	<artifactId>dependencyanalyzer</artifactId>
 	<packaging>hpi</packaging>
-	<version>0.8-SNAPSHOT</version>
+	<version>0.1.0</version>
 	<name>Jenkins Dependency Analyzer Plugin</name>
 	<url>http://wiki.jenkins-ci.org/display/JENKINS/Dependency+Analyzer+Plugin</url>
 
@@ -33,6 +33,10 @@
 			<id>ejouvin</id>
 			<name>Etienne Jouvin</name>
 		</developer>
+		<developer>
+                        <id>ws</id>
+                        <name>Wang Shuo</name>
+                </developer>
 	</developers>
 
 	<dependencies>
